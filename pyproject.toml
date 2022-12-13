@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "students_registration_api"
+version = "1.0.0"
+description = "A starting project that gather students info for registration purposes."
+authors = ["Ralph Souza"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.4"
+djangorestframework = "^3.14.0"
+pytest = "^7.2.0"
+unittest = "^0.0"
+ipdb = "^0.13.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
