@@ -13,6 +13,7 @@ pytest = "^7.2.0"
 unittest = "^0.0"
 ipdb = "^0.13.9"
 drf-jsonmask = "^0.3.0"
+drf-yasg = "^1.21.4"
 
 [tool.poetry.dev-dependencies]
 
