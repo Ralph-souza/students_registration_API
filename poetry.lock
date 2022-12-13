@@ -99,6 +99,19 @@ django = ">=3.0"
 pytz = "*"
 
 [[package]]
+name = "drf-jsonmask"
+version = "0.3.0"
+description = "Implements Google's partial response in Django RestFramework (Fork from Zapier's package)"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+Django = ">=2.2,<5.0"
+djangorestframework = ">=3.10,<3.15"
+jsonmask = "*"
+
+[[package]]
 name = "exceptiongroup"
 version = "1.0.4"
 description = "Backport of PEP 654 (exception groups)"
@@ -191,6 +204,14 @@ parso = ">=0.8.0,<0.9.0"
 docs = ["Jinja2 (==2.11.3)", "MarkupSafe (==1.1.1)", "Pygments (==2.8.1)", "alabaster (==0.7.12)", "babel (==2.9.1)", "chardet (==4.0.0)", "commonmark (==0.8.1)", "docutils (==0.17.1)", "future (==0.18.2)", "idna (==2.10)", "imagesize (==1.2.0)", "mock (==1.0.1)", "packaging (==20.9)", "pyparsing (==2.4.7)", "pytz (==2021.1)", "readthedocs-sphinx-ext (==2.1.4)", "recommonmark (==0.5.0)", "requests (==2.25.1)", "six (==1.15.0)", "snowballstemmer (==2.1.0)", "sphinx-rtd-theme (==0.4.3)", "sphinx (==1.8.5)", "sphinxcontrib-serializinghtml (==1.1.4)", "sphinxcontrib-websupport (==1.2.4)", "urllib3 (==1.26.4)"]
 qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["Django (<3.1)", "attrs", "colorama", "docopt", "pytest (<7.0.0)"]
+
+[[package]]
+name = "jsonmask"
+version = "0.1.1"
+description = "Implements the Google Partial Response protocol in Python"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
 
 [[package]]
 name = "matplotlib-inline"
@@ -412,7 +433,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "13a9a727fa755e098aa997019517ece70bd46db61d1d802b667a0a2cb7146377"
+content-hash = "323c9c975d2965638f1c4a09389e13a3dbeff6e2333de09c51db8264fea7e85a"
 
 [metadata.files]
 appnope = []
@@ -424,12 +445,14 @@ colorama = []
 decorator = []
 django = []
 djangorestframework = []
+drf-jsonmask = []
 exceptiongroup = []
 executing = []
 iniconfig = []
 ipdb = []
 ipython = []
 jedi = []
+jsonmask = []
 matplotlib-inline = []
 packaging = []
 parso = []

@@ -34,4 +34,4 @@ class Registration(models.Model):
         verbose_name = "Registration"
 
     def __str__(self):
-        return self.student
+        return self.email
