@@ -5,7 +5,7 @@ This is a simple API project that should provide a CRUD for archiving students r
 ## Data Base Structure
 
 <div style="display: inline-block"></br>
-    <iframe width="560" height="315" src='https://dbdiagram.io/embed/6398f44e99cb1f3b55a135ef'> </iframe>
+    <img alt="DB Diagram" align="center" src='https://dbdiagram.io/embed/6398f44e99cb1f3b55a135ef'>
 </div></br>
 
 ## Endpoints
