@@ -66,8 +66,7 @@ To successfully create this registration profile we must have the "student" ID g
 
 The links bellow allow you to download each collection`s .json file.
 
-[Student Collection](https://drive.google.com/uc?export=view&id=14d8xkjsBduEYa3qK8WrtlKBpJBoJX9_c)<br>
-[Registration Collection](https://drive.google.com/uc?export=view&id=17dvhhpTbuLJvqvuOYX9glUKe7hGsMzYn)
+[Student Registration Collection](https://drive.google.com/uc?export=view&id=1PFiODE3eKAsQ9-HgMN7RunJAHqa1Dw9s)</br>
 
 ## License
 

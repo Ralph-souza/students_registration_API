@@ -15,7 +15,7 @@ clean-build:
 	@rm -fr *.egg-info
 
 test:
-	poetry run pytest -x -s
+	pytest -x -s
 
 lint:
-	poetry run pre-commit install && poetry run pre-commit run -a -v
+	pre-commit install && pre-commit run -a -v
