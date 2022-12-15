@@ -14,6 +14,9 @@ unittest = "^0.0"
 ipdb = "^0.13.9"
 drf-jsonmask = "^0.3.0"
 drf-yasg = "^1.21.4"
+pre-commit = "*"
+factory_boy = "*"
+pytest-django = "^4.5.2"
 
 [tool.poetry.dev-dependencies]
 

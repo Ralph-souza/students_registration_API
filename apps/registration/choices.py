@@ -1,8 +1,4 @@
-GENDER_CHOICES = (
-    ("male", "Masculino"),
-    ("female", "Feminino"),
-    ("other", "Outro(a)")
-)
+GENDER_CHOICES = (("male", "Masculino"), ("female", "Feminino"), ("other", "Outro(a)"))
 
 DEGREE_CHOICES = (
     ("fundamental", "Fundamental completo"),
@@ -11,11 +7,7 @@ DEGREE_CHOICES = (
     ("high_school_na", "Ensino medio incompleto"),
     ("graduation", "Superior completo"),
     ("graduation_na", "Superio incompleto"),
-    ("other", "Outro")
+    ("other", "Outro"),
 )
 
-RELATIONSHIP_CHOICES = (
-    ("father", "Pai"),
-    ("mother", "Mae"),
-    ("other", "Outro")
-)
+RELATIONSHIP_CHOICES = (("father", "Pai"), ("mother", "Mae"), ("other", "Outro"))
