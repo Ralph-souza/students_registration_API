@@ -50,8 +50,10 @@ To successfully create this registration profile we must have the "student" ID g
 
 ## HTTP Requests Collection
 
-[Student Collection](https://web.postman.co/workspace/own-workspace~de4649c2-c1fd-4f87-be36-7f1bf4f22b7e/collection/14825300-d11f647d-39bf-4456-b57c-acafbef95a7d?action=share&creator=14825300)<br>
-[Registration Collection](https://web.postman.co/workspace/own-workspace~de4649c2-c1fd-4f87-be36-7f1bf4f22b7e/collection/14825300-181ffcc5-bef6-434c-b054-1a7c554d6d37?action=share&creator=14825300)
+The links bellow allow you to download each collection`s .json file.
+
+[Student Collection](https://drive.google.com/uc?export=view&id=14d8xkjsBduEYa3qK8WrtlKBpJBoJX9_c)<br>
+[Registration Collection](https://drive.google.com/uc?export=view&id=17dvhhpTbuLJvqvuOYX9glUKe7hGsMzYn)
 
 ## License
 
