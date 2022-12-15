@@ -1,14 +1,21 @@
 import pytest
+from rest_framework.test import RequestsClient
 
 from apps.registration.serializers import StudentSerializer
+from .factories import StudentFactory
 
 pytestmark = pytest.mark.django_db
 
 
 class TestStudentSerializer:
     def test_serializer_read_only_fields(self, student_payload):
-        student_payload["id"] == "5456ce9d-8a91-430d-8a01-db0ed614077e"
-        student_payload["created_at"] == "2022-12-13T12:49:05-03:00"
+        student = StudentFactory()
+        rc = RequestsClient()
+
+        request = rc.post("http://127.0.0.1:8000/v1/api/student/", student_payload)
+        response_data = eval(request.content)
+        response_data["id"] == student.id
+        response_data["created_at"] == student.created_at
         serializer = StudentSerializer(data=student_payload)
 
         assert serializer.is_valid() is True
