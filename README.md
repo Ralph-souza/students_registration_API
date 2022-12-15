@@ -2,6 +2,20 @@
 
 This is a simple API project that should provide a CRUD for archiving students registration info.
 
+## Usage
+
+In order to run the application:
+
+To build image
+```commandline
+docker build -t student-registration-image:latest .
+```
+
+To run the container
+```commandline
+docker compose up -d
+```
+
 ## Data Base Structure
 
 <div style="display: inline-block"></br>
