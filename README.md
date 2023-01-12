@@ -19,7 +19,7 @@ docker compose up -d
 ## Data Base Structure
 
 <div style="display: inline-block"></br>
-    <img alt="DB Diagram" align="center" src='https://drive.google.com/uc?export=view&id=1QjwkEH85OtjmY6fNm8cJR-KKsrtgqoda'>
+    <img alt="DB Diagram" align="center" src='https://drive.google.com/file/d/1QjwkEH85OtjmY6fNm8cJR-KKsrtgqoda/view?usp=share_link'>
 </div></br>
 
 ## Endpoints

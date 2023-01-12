@@ -1,7 +1,7 @@
 version: '2'
 services:
   student-registration-api:
-    image: student-registration-image:latest
+    image: ralphssouza/student-registration-image:latest
     container_name: student-registration-api
     ports:
       - '8000:8000'
